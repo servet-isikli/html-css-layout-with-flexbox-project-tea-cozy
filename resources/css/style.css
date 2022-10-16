@@ -1,0 +1,43 @@
+/* all */
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* header */
+header {
+  width: 1300px;
+  height: 69px;
+  margin: auto;
+}
+
+.logo,
+.nav {
+  display: inline-block;
+}
+
+.logo img {
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 50px;
+}
+
+.nav {
+  float: right;
+  line-height: 69px;
+}
+
+.background {
+  background-image: url("/resources/img/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+}
+.text {
+  width: 1200px;
+  margin: auto;
+  border: dashed red;
+}
